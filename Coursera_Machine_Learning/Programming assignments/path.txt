@@ -1,0 +1,7 @@
+cd 'C:\Users\yibin\Desktop\'
+cd "Programming assignments"\ex1_LinearRegression\ex1
+
+cd 'C:\Users\yibin\Dropbox\'
+cd "Stanford Machine Learning_Fall12"\"Programming assignments"\ex6_SVM
+
+PS1('>> ')

@@ -1,0 +1,31 @@
+function [rMod, r_indexMod, SvoNoCutMod] = Compute_rSSvo_LinReg_rMod(Apatt, A, r, SvoNoCut)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Ng Yibin
+% Inputs
+%   Apatt :
+%   A     : data pattern
+%   r     : readback signal
+%   SvoNoCut : servo numbers
+% Outputs
+%   rMod        : modified r with readback samples with data patt
+%   corresponding to
+%   r_indexMod  :
+%   SvoNoCutMod : 
+% 8 May 2014: Given a readback signal, extract those readback samples with
+% data patt corresponding to Apatt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+rMod = [];
+r_indexMod = [];
+SvoNoCutMod = [];
+NApatt1 = floor(length(Apatt)/2);
+for i = NApatt1+1:length(A)-NApatt1
+    if isequal(A(i-NApatt1:i+NApatt1), Apatt) || isequal(A(i-NApatt1:i+NApatt1), -Apatt)
+%     if isequal(A(i-NApatt1:i+NApatt1), Apatt) 
+        rMod = [rMod; r(i)];
+        r_indexMod = [r_indexMod; i];
+        SvoNoCutMod = [SvoNoCutMod SvoNoCut(i)];
+    end
+end
