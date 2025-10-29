@@ -1,0 +1,99 @@
+```
++-----------------------------------------------------+
+|                                                     |
+|         MODEL CONTEXT PROTOCOL ARCHITECTURE         |
+|                                                     |
++-----------------------------------------------------+
+                          |
+    +-------------------+-------------------+
+    |                   |                   |
++---v---+           +---v---+           +---v---+
+|       |           |       |           |       |
+| CORE  |<--------->|LAYERED|<--------->|DEPLOY-|
+| COMPO-|           | ARCH  |           | MENT  |
+| NENTS |           |       |           | ARCH  |
+|       |           |       |           |       |
++---+---+           +---+---+           +---+---+
+    |                   |                   |
+    v                   v                   v
++-----------------------------------+   +-----------------------------------+
+|                                   |   |                                   |
+| CORE COMPONENTS                   |   | LAYERED ARCHITECTURE             |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Context Containers            | |   | | Application Layer             | |
+| | - Data structures             | |   | | - AI applications integration | |
+| | - Content + Metadata          | |   | | - Domain-specific operations  | |
+| | - Lineage tracking            | |   | | - User interfaces             | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Context Handlers              | |   | | Semantic Layer                | |
+| | - Processing components       | |   | | - Meaning & interpretation    | |
+| | - Filtering & transformation  | |   | | - Schemas & ontologies        | |
+| | - Integration points          | |   | | - Cross-system understanding  | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Identification System         | |   | | Transport Layer               | |
+| | - Unique IDs                  | |   | | - Physical transmission       | |
+| | - Tracking across boundaries  | |   | | - Network protocols           | |
+| | - Context graphs              | |   | | - Secure data transfer        | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
++-----------------------------------+   +-----------------------------------+
+
++-----------------------------------+   +-----------------------------------+
+|                                   |   |                                   |
+| INTEGRATION PATTERNS             |   | SECURITY ARCHITECTURE             |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Direct Integration            | |   | | Authentication                | |
+| | - Native implementation       | |   | | - Identity verification       | |
+| | - Tight coupling              | |   | | - Preventing unauthorized     | |
+| | - Performance-focused         | |   | |   access                      | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Middleware Integration        | |   | | Authorization                 | |
+| | - Service layer               | |   | | - Access permissions          | |
+| | - Loose coupling              | |   | | - Fine-grained control        | |
+| | - Centralized management      | |   | | - Privacy requirements        | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | API Integration               | |   | | Privacy                       | |
+| | - Standardized APIs           | |   | | - Sensitive info handling     | |
+| | - Legacy systems support      | |   | | - Data minimization           | |
+| | - Cross-platform sharing      | |   | | - User control                | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
++-----------------------------------+   +-----------------------------------+
+
++-----------------------------------+   +-----------------------------------+
+|                                   |   |                                   |
+| CONTEXT FLOW ARCHITECTURE        |   | DEPLOYMENT ARCHITECTURE          |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Context Creation              | |   | | Cloud-Based Deployment        | |
+| | - Generation points           | |   | | - Cloud environments          | |
+| | - Input processing            | |   | | - Scalable processing         | |
+| | - Metadata attachment         | |   | | - Cloud AI service integration| |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Context Propagation           | |   | | Edge Deployment               | |
+| | - Passing mechanisms          | |   | | - Network edge processing     | |
+| | - Inheritance rules           | |   | | - Low latency                 | |
+| | - Lineage tracking            | |   | | - Limited connectivity        | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
+| +-------------------------------+ |   | +-------------------------------+ |
+| | Context Consumption           | |   | | Hybrid Architecture           | |
+| | - Utilization endpoints       | |   | | - Combined processing         | |
+| | - Context-aware processing    | |   | | - Intelligent routing         | |
+| | - Feedback mechanisms         | |   | | - Adaptive behavior           | |
+| +-------------------------------+ |   | +-------------------------------+ |
+|                                   |   |                                   |
++-----------------------------------+   +-----------------------------------+
+```
