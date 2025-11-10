@@ -1,0 +1,23 @@
+{
+  "2508.10133v1": {
+    "title": "MANGO: Multimodal Attention-based Normalizing Flow Approach to Fusion Learning",
+    "authors": [
+      "Thanh-Dat Truong",
+      "Christophe Bobda",
+      "Nitin Agarwal",
+      "Khoa Luu"
+    ],
+    "summary": "Multimodal learning has gained much success in recent years. However, current\nmultimodal fusion methods adopt the attention mechanism of Transformers to\nimplicitly learn the underlying correlation of multimodal features. As a\nresult, the multimodal model cannot capture the essential features of each\nmodality, making it difficult to comprehend complex structures and correlations\nof multimodal inputs. This paper introduces a novel Multimodal Attention-based\nNormalizing Flow (MANGO) approach\\footnote{The source code of this work will be\npublicly available.} to developing explicit, interpretable, and tractable\nmultimodal fusion learning. In particular, we propose a new Invertible\nCross-Attention (ICA) layer to develop the Normalizing Flow-based Model for\nmultimodal data. To efficiently capture the complex, underlying correlations in\nmultimodal data in our proposed invertible cross-attention layer, we propose\nthree new cross-attention mechanisms: Modality-to-Modality Cross-Attention\n(MMCA), Inter-Modality Cross-Attention (IMCA), and Learnable Inter-Modality\nCross-Attention (LICA). Finally, we introduce a new Multimodal Attention-based\nNormalizing Flow to enable the scalability of our proposed method to\nhigh-dimensional multimodal data. Our experimental results on three different\nmultimodal learning tasks, i.e., semantic segmentation, image-to-image\ntranslation, and movie genre classification, have illustrated the\nstate-of-the-art (SoTA) performance of the proposed approach.",
+    "pdf_url": "http://arxiv.org/pdf/2508.10133v1",
+    "published": "2025-08-13"
+  },
+  "2309.13782v2": {
+    "title": "On the Computational Benefit of Multimodal Learning",
+    "authors": [
+      "Zhou Lu"
+    ],
+    "summary": "Human perception inherently operates in a multimodal manner. Similarly, as\nmachines interpret the empirical world, their learning processes ought to be\nmultimodal. The recent, remarkable successes in empirical multimodal learning\nunderscore the significance of understanding this paradigm. Yet, a solid\ntheoretical foundation for multimodal learning has eluded the field for some\ntime. While a recent study by Lu (2023) has shown the superior sample\ncomplexity of multimodal learning compared to its unimodal counterpart, another\nbasic question remains: does multimodal learning also offer computational\nadvantages over unimodal learning? This work initiates a study on the\ncomputational benefit of multimodal learning. We demonstrate that, under\ncertain conditions, multimodal learning can outpace unimodal learning\nexponentially in terms of computation. Specifically, we present a learning task\nthat is NP-hard for unimodal learning but is solvable in polynomial time by a\nmultimodal algorithm. Our construction is based on a novel modification to the\nintersection of two half-spaces problem.",
+    "pdf_url": "http://arxiv.org/pdf/2309.13782v2",
+    "published": "2023-09-25"
+  }
+}
